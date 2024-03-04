@@ -1,0 +1,38 @@
+{
+    "name": "mbakgor/terminal-plugin",
+    "description": "LibreNMS plugin that helps you to connect devices via terminal.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammed Bakgor",
+            "email": "bakgormuhammed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "mbakgor\\TerminalPlugin\\": "src"
+        }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "mbakgor\\TerminalPlugin\\": "src"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "mbakgor\\TerminalPlugin\\Providers\\TerminalPluginServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
