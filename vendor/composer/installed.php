@@ -3,7 +3,7 @@
         'name' => 'mbakgor/terminal-plugin',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '48527c7658137a95614e81d574da44dfe20601cb',
+        'reference' => '48decf554696d4b9885d998a4773a67e29c23453',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'mbakgor/terminal-plugin' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '48527c7658137a95614e81d574da44dfe20601cb',
+            'reference' => '48decf554696d4b9885d998a4773a67e29c23453',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
